@@ -72,6 +72,8 @@ jira::poolRemoveAbandonedTimout: 300
 jira::poolTestWhileIdle: true
 jira::poolTestOnBorrow: true
 
+#jira::mssql_schema_name: 'jiraschema'
+
 # Change if your database isn't on localhost.  This module will only check
 # to make sure that the service is running and start it if it is not on
 # localhost db's only.  So if your remote database, which is suggested, isn't
