@@ -238,6 +238,11 @@ defaults to true
 
 defaults to true
 
+#####`mssql_schema_name`
+
+Set the schema name for mssql databas
+defaults to jiraschema
+
 ####MySQL Java Connector parameters####
 
 #####`mysql_connector_manage`
